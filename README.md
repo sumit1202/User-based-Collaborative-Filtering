@@ -5,7 +5,7 @@ User-based Collaborative Filtering using Cosine similarity
 
 1. Compile and Run Recommender.java file
 
-    [a.] javac recommender.java
+    [a.] javac Recommender.java
     
     [b.] java Recommender
  
