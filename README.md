@@ -1,21 +1,28 @@
 # User-based-Collaborative-Filtering
-User-based Collaborative Filtering via Cosine similarity
 
-COLLABORATIVE FILTERING
+User-based Collaborative Filtering using Cosine similarity
+
 
 1. Compile and Run Recommender.java file
-    a. javac recommender.java
-    b. java Recommender
+
+    [a.] javac recommender.java
+    
+    [b.] java Recommender
  
 
  
 2. For running java file, following files were used-    
-   Input files: i] ratingsx.csv {userId, movieId, rating, timestamp}
-               ii] toBeRated.csv {userId, movieId}
+
+   Input files: [i] ratingsx.csv {userId, movieId, rating, timestamp}
+   
+               [ii] toBeRated.csv {userId, movieId}
  
  After running java file, following file was generated-
- Output file: i] finalResult.csv { userId, movieId and opRating }
-              ii]sortedResult.csv { userId, movieId and opRating }
+ 
+ Output file: [i] finalResult.csv { userId, movieId and opRating }
+ 
+              [ii]sortedResult.csv { userId, movieId and opRating }
+              
                  -calculated similarity sorted in descending order for each user.
 
  
